@@ -5,7 +5,7 @@
 make
 sudo insmod hello.ko
 sudo rmmod hello
-sudo dmsg |grep world
+sudo dmesg |grep world
 [ 5217.586538] hello, world
 [ 5221.172269] bye, world
 ```
